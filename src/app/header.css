@@ -1,0 +1,10 @@
+.swiper {
+    width: 420px;
+    height: max-content;
+  }
+  @media screen and (max-width:440px) {
+    .swiper {
+      width: 90%;
+      
+    
+    }}

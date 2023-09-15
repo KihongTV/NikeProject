@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  
+  --swiper-pagination-color: #dd5908;
+  --swiper-pagination-bullet-size: 9px;
+  --swiper-pagination-bullet-width: 9px;
+  --swiper-pagination-bullet-height: 9px;
+  --swiper-pagination-bullet-inactive-color: rgb(146, 146, 146);
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+  
+}
+.activehome{
+  transform: translateY(-1.25rem);
+  background-color: rgb(17 24 39);
+}
+.activePupular{
+  transform: translateY(-1.25rem);
+  background-color: rgb(17 24 39);
+}
+.activeOffer{
+  transform: translateY(-1.25rem);
+  color: rgb(234 179 8 );
+  background-color: rgb(17 24 39);
+}
+.activeCostomer{
+  transform: translateY(-1.25rem);
+  background-color: rgb(17 24 39);
+  
+}
+.activeAbout{
+  transform: translateY(-1.25rem);
+  background-color: rgb(17 24 39);
+  
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+} .swiper-slide {
+  
+    
+  
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ 
